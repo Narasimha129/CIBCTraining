@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.conformiq.creator.structure.dsl="http://www.conformiq.com/emf/15/StructureDiagram" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_oQibkNyiEeqVW-cIlunThA" type="Dsl" name="OpenNewAccount.sd" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_oy46sNyiEeqVW-cIlunThA" type="2003">
+    <children xmi:type="notation:DecorationNode" xmi:id="_oy6I0NyiEeqVW-cIlunThA" type="5037"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_oy6I0dyiEeqVW-cIlunThA" type="7003">
+      <children xmi:type="notation:Node" xmi:id="_qHumsNyiEeqVW-cIlunThA" type="3014">
+        <children xmi:type="notation:DecorationNode" xmi:id="_qHumtdyiEeqVW-cIlunThA" type="5016"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_qHumsdyiEeqVW-cIlunThA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_qHumstyiEeqVW-cIlunThA" fontName="Segoe UI"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_qHums9yiEeqVW-cIlunThA"/>
+        <element xmi:type="com.conformiq.creator.structure.dsl:Button" href="OpenNewAccount.sl#qmld75b51e0cf05468c86aa3724f9e00f2e"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qHumtNyiEeqVW-cIlunThA" x="71" y="45"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_oy46sdyiEeqVW-cIlunThA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_oy46styiEeqVW-cIlunThA" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_oy46s9yiEeqVW-cIlunThA"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_oy46tNyiEeqVW-cIlunThA"/>
+    <element xmi:type="com.conformiq.creator.structure.dsl:Screen" href="OpenNewAccount.sl#qml6ac97788d97543e6b5ad9b8e78f4438e"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oy46tdyiEeqVW-cIlunThA" x="167" y="40" width="194" height="129"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_oQibkdyiEeqVW-cIlunThA"/>
+  <element xmi:type="com.conformiq.creator.structure.dsl:Model" href="OpenNewAccount.sl#/"/>
+</notation:Diagram>

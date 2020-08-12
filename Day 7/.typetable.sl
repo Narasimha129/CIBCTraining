@@ -43,3 +43,8 @@ creator.gui.screen qml1f4a28b3797e4bda922ee5018c0146da "Order Details"
 			status = dontcare;
 	}
 }
+creator.gui.screen qml6ac97788d97543e6b5ad9b8e78f4438e "Open New Account"
+{
+	creator.gui.button qmld75b51e0cf05468c86aa3724f9e00f2e "Submit details"
+		status = dontcare;
+}
