@@ -500,6 +500,18 @@
       <element xsi:nil="true"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hBGaY9yXEeqVW-cIlunThA" x="566" y="440"/>
     </children>
+    <children xmi:type="notation:Shape" xmi:id="_9Nm28NyYEeqVW-cIlunThA" type="Note" fontName="Segoe UI" description="to compare" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_9Np6QNyYEeqVW-cIlunThA" type="DiagramName">
+        <element xsi:nil="true"/>
+      </children>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_9Np6QdyYEeqVW-cIlunThA" type="Description">
+        <element xsi:nil="true"/>
+      </children>
+      <styles xmi:type="notation:TextStyle" xmi:id="_9Nm28dyYEeqVW-cIlunThA"/>
+      <styles xmi:type="notation:LineTypeStyle" xmi:id="_9Nm28tyYEeqVW-cIlunThA"/>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9Nm289yYEeqVW-cIlunThA" x="594" y="568"/>
+    </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_hsoFwdr5EeqTLMLMfXG6OQ"/>
     <edges xmi:type="notation:Edge" xmi:id="_1HsXUNr5EeqTLMLMfXG6OQ" type="4001" element="_1HrwQNr5EeqTLMLMfXG6OQ" source="_nQPfUNr5EeqTLMLMfXG6OQ" target="_0ycgENr5EeqTLMLMfXG6OQ">
       <styles xmi:type="notation:RoutingStyle" xmi:id="_1HsXUdr5EeqTLMLMfXG6OQ"/>
