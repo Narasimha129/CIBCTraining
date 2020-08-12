@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestSuite" verbose="1">
+ <test name="TestCase1" >
+    <classes>
+      <class name="testsuite.Verify__Login_with_invalid_username_and_valid_password"/>
+    </classes>
+ </test>
+ <test name="TestCase2" >
+    <classes>
+      <class name="testsuite.Verify__Login_with_valid_username_and_invalid_password"/>
+    </classes>
+ </test>
+ <test name="TestCase3" >
+    <classes>
+      <class name="testsuite.Verify_Successful_login"/>
+    </classes>
+ </test>
+ <test name="TestCase4" >
+    <classes>
+      <class name="testsuite.Verify_Successful_login__2_"/>
+    </classes>
+ </test>
+ <test name="TestCase5" >
+    <classes>
+      <class name="testsuite.Verify_Successful_login__3_"/>
+    </classes>
+ </test>
+</suite>

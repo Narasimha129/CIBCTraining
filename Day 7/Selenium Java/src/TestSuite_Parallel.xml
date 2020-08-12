@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parallel TestSuite" parallel="methods" thread-count="2">
+ <test name="Parallel TestCase" >
+    <classes>
+      <class name="testsuite.Verify__Login_with_invalid_username_and_valid_password"/>
+      <class name="testsuite.Verify__Login_with_valid_username_and_invalid_password"/>
+      <class name="testsuite.Verify_Successful_login"/>
+      <class name="testsuite.Verify_Successful_login__2_"/>
+      <class name="testsuite.Verify_Successful_login__3_"/>
+    </classes>
+ </test>
+</suite>

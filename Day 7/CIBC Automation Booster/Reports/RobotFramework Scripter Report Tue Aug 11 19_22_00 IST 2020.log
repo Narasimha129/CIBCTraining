@@ -1,0 +1,41 @@
+Problems in Excel:
+Ignoring the following mapping(s) because they use same automation action with different mapping types in GUI action automation mapping.xls file: 
+
+
+Ignoring following mapping(s) because of invalid default locators [other than [xpath, id, name, tagName, csselector, classname, linktext, partialLinkText, link]] in GUI action automation mapping.xls file: 
+[Excel row number(s): ]
+
+Ignoring the following mapping(s) because they use same automation action with different action types in Natural language automation mapping.xls file: 
+
+
+Ignoring the following mapping(s) because they use same automation action with and without default locator type in Natural language automation mapping.xls file: 
+
+
+Ignoring the following mapping(s) because they use same automation action with different parameterised settings in Natural language automation mapping.xls file: 
+
+
+Ignoring following mapping(s) because of invalid default locators [other than [xpath, id, name, tagName, csselector, classname, linktext, partialLinkText, link]] in Natural language automation mapping.xls file: 
+[Excel row number(s): ]
+
+Ignoring following mapping(s) because of invalid action type [other than input or verification (case insensitive)] in Natural language automation mapping.xls file: 
+[Excel row number(s): ]
+
+Ignoring following mapping(s) because of invalid parameterised value [other than yes, no or empty string (case insensitive)] in Natural language automation mapping.xls file: 
+[Excel row number(s): ]
+
+For the following GUI widget type(s) no automation has been generated because no mapping row could be found.
+New mapping row(s) have been added in Robot Framework worksheet within GUI action automation mapping.xls file: 
+
+
+For the following GUI widget type(s) no automation has been generated because the automation action is missing.
+Please complete mapping in Robot Framework worksheet within GUI action automation mapping.xls file: 
+
+
+For the following text phrase(s) no automation has been generated because no mapping row could be found.
+New mapping row(s) have been added in RobotFwk Action Identification worksheet within Natural language automation mapping.xls file: 
+
+
+For the following text phrase(s) no automation has been generated because the automation action is missing.
+Please complete the mapping in the RobotFwk Action Identification worksheet within in Natural language automation mapping.xls file:
+
+

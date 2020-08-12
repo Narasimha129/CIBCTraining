@@ -1,0 +1,103 @@
+BODY { background-color: #FFFFFF; margin: 0px; padding: 8px; }
+
+* { font-family: sans-serif; }
+* { font-size: 12px; }
+
+H1 { margin: 4px 4px 4px 0px; }
+H2 { margin: 4px 4px 4px 0px; }
+
+IMG { border: none; }
+
+DIV { padding: 0px; margin: 0px; }
+
+DIV.header { background-color: #B0B0B0; padding: 4px; }
+
+DIV.testplan { border: 2px solid; border-color: black; padding: 8px; }
+DIV.testcase { border: 1px solid; border-color: #808080; padding: 4px; }
+
+DIV.checkpoint { border: 2px solid black; padding: 4px; }
+
+TABLE.teststeps { border-collapse: collapse; margin: 4px; border: 2px solid;
+                  border-color: #808080; }
+
+TABLE.projectname { border-collapse: collapse; margin: 3px; border: 2px solid;
+                  border-color: #808040; }
+
+TABLE.msc TD { padding: 0px; border: 0px; }
+
+TD { vertical-align: top; padding: 4px; margin: 0px;
+     border: 1px solid; border-color: #808080; }
+
+TD.unused { background-color: #808080; border: none; }
+
+TABLE.header { padding: 0px; margin: 0px; border: 0px solid; }
+TABLE.msc { width: 100%; padding: 0px; margin: 0px; border: 0px solid; }
+TABLE.bargraphics { padding: 0px; margin: 0px; border: none; }
+TABLE.bargraphics TD { padding: 0px; margin: 0px; border: none; }
+TABLE.testcaselist { border-collapse: collapse; margin: 4px;
+                     border: 2px solid; border-color: #808080; }
+
+TD.recordheader { background-color: #54b948; font-weight: bold;font-size:10pt;color:black;text-align: center; }
+TD.projectheader { background-color: #54b948; font-weight: bold;font-size:10pt;color:black;text-align: center; }
+TD.fieldheader { background-color: #FFFFD0; }
+TD.noborder { border-width: 0px; } 
+TD.projectfieldheader { background-color: #FFFFCC; width: 11%; height: 18%;}
+TABLE.msc TD.checkpoint { padding: 2px; }
+TABLE.msc TD.debugprint { padding: 2px; }
+TABLE.msc TD.checkpointglobal { background-color: #00A000;
+                      padding: 2px;
+		      width: 100px;
+		      color: #FFFFFF;
+                      text-align: center;
+                      }
+TABLE.msc TD.checkpointlocal { width: 100px; background-color: #D0FFD0; color: #000000; padding: 2px; text-align: center; }
+TABLE.msc TD.checkpointredundant { width: 100px; background-color: #C0C0C0; color: #808080; padding: 2px; text-align: center; }
+TABLE.msc TD.rcheckpointglobal { width: 100px; padding: 2px; background-color: #A000A0; color: #FFFFFF; text-align: center; }
+TABLE.msc TD.rcheckpointlocal { width: 100px; padding: 2px; background-color: #FFD0FF; color: #000000; text-align: center; }
+TABLE.msc TD.rcheckpointredundant { width: 100px; padding: 2px; background-color: #E0C0E0; color: #808080; text-align: center; }
+
+TD.messagechange { vertical-align: bottom; padding: 4px; margin: 0px;
+                   border: 1px solid; border-color: #808080; }
+TD.timediff      { vertical-align: middle; padding: 4px; margin: 0px;
+                   border: 1px solid; border-color: #808080; }
+
+TABLE.msc TD.section { background-color: #000000; color: #FFFFFF;
+	               font-weight: bold;
+                       padding: 6px; }
+
+TD.debugprint { background-color: #A06000; color: #FFFFFF; }
+
+TD.narrative { color: #4C7D7E; text-align: center; }
+
+TD.scenario  { color: #2B547E; text-align: center; }
+
+TD.lifeline { width: 15px; max-width: 15px; min-width: 15px; }
+
+HTML BODY TABLE.record { background-color: #FFFFFF;
+	       border-collapse: collapse;
+	       margin: 4px;
+	       border: 1px solid; border-color: #808080;  }
+HTML BODY TD.recordheader {
+	background-color: #FFE0C0; font-weight: bold;
+	vertical-align: top; padding: 4px; margin: 0px;
+	border: 1px solid; border-color: #808080; }
+HTML BODY TD.fieldheader {
+	background-color: #FFFFD0;
+	vertical-align: top; padding: 4px; margin: 0px;
+	border: 1px solid; border-color: #808080;  }
+HTML BODY TD.fieldvalue {
+	vertical-align: top; padding: 4px; margin: 0px;
+	border: 1px solid; border-color: #808080;  }
+
+HTML BODY TD.projectvalue {
+	vertical-align: top; padding: 4px; margin: 0px;
+	border: 1px solid; border-color: #808080;  }
+	
+HTML BODY DIV.array { background-color: #FFFFFF;
+	       border-collapse: collapse;
+	       margin: 4px;
+	       border: 1px solid; border-color: #808080;  }
+
+HTML BODY TABLE.checkpoint_table { background-color: #FFFFFF;
+		       margin: 0px; padding: 2px;
+		       border: 1px dashed; border-color: #808080;  }

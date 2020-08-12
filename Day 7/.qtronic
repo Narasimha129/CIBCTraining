@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.conformiq:ConformiqProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.conformiq="http://www.conformiq.com/models/3/project" propertiesVersion="1001">
+  <designConfigurations name="DC 1" id="635b2d35e5736bb5ab149da1ea01460b">
+    <scripterConfigurations jarPath="Conformiq_Designer/ExcelScripter.jar" pluginName="ExcelScripter">
+      <scripterPropertyCategories name="General">
+        <categoryProperties key="Output file" value="ExcelTestSuite.xls"/>
+        <categoryProperties key="Auto-resize Excel output column width" value="false"/>
+        <categoryProperties key="Template file" value="ExcelTemplate.xls"/>
+        <categoryProperties key="Generate QC compatible default template file" value="true"/>
+        <categoryProperties key="Mapping file" value="ExcelMappings.xls"/>
+        <categoryProperties key="Configuration message type"/>
+        <categoryProperties key="Verdict values" value="Open, Pass, Fail, Not_Executable"/>
+        <categoryProperties key="Create separate traceability matrix for body coverage" value="false"/>
+        <categoryProperties key="Merge steps with no verification point(s) with following step(s)" value="true"/>
+        <categoryProperties key="Merge steps with no action(s) with preceding step(s)" value="true"/>
+        <categoryProperties key="Omit information about where a requirement was included" value="true"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Mapping">
+        <categoryProperties key="Custom mapping source"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Textual messages">
+        <categoryProperties key="No action" value="No action"/>
+        <categoryProperties key="No errors can be observed at the SUT" value="No errors can be observed at the SUT"/>
+        <categoryProperties key="External circumstance prefix" value="External circumstance: "/>
+      </scripterPropertyCategories>
+    </scripterConfigurations>
+    <scripterConfigurations jarPath="C:/Users/lmcgeko/OneDrive - Ideabytes/Conformiq/CIBC Training/CIBCAutomationExcelScripter.jar" pluginName="CIBCAutomationExcelScripter" sequenceNumber="1">
+      <scripterPropertyCategories name="Main">
+        <categoryProperties key="Output Folder" value="CIBC Automation Booster"/>
+        <categoryProperties key="GUI action automation mapping" value="GUI action automation mapping.xls"/>
+        <categoryProperties key="Natural language automation mapping" value="Natural language automation mapping.xls"/>
+        <categoryProperties key="Generate Object Repository Excel" value="false"/>
+        <categoryProperties key="Disable export of widget status verification" value="true"/>
+        <categoryProperties key="Disable initial check in components for GUI object existence" value="true"/>
+        <categoryProperties key="Disable export of don't care data widget and field verifications" value="true"/>
+        <categoryProperties key="Generate external circumstances as comments" value="true"/>
+        <categoryProperties key="Disable creating parameter for don't care input data" value="false"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Impact Analysis">
+        <categoryProperties key="Generate Impact analysis Excel" value="true"/>
+        <categoryProperties key="Sprint" value="Sprint1"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Automation Configuration">
+        <categoryProperties key="Selenium" value="true"/>
+      </scripterPropertyCategories>
+    </scripterConfigurations>
+    <scripterConfigurations jarPath="Conformiq_Designer/QCALMScripter.jar" pluginName="QCALMScripter" sequenceNumber="2">
+      <scripterPropertyCategories name="Access Configuration">
+        <categoryProperties key="Url" value="http://127.0.0.1/qcbin/"/>
+        <categoryProperties key="Username"/>
+        <categoryProperties key="Password"/>
+        <categoryProperties key="Client ID"/>
+        <categoryProperties key="API key secret"/>
+        <categoryProperties key="Domain"/>
+        <categoryProperties key="Project"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Test Rendering Settings">
+        <categoryProperties key="Mapping file"/>
+        <categoryProperties key="Custom field mapping file" value="CustomFieldMappings.xls"/>
+        <categoryProperties key="Export as ASCIIMSC" value="false"/>
+        <categoryProperties key="Merge steps with no verification point(s) with following step(s)" value="false"/>
+        <categoryProperties key="Merge steps with no action(s) with preceding step(s)" value="false"/>
+        <categoryProperties key="Omit information about where a requirement was included" value="true"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Mapping">
+        <categoryProperties key="Custom mapping source"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Textual messages">
+        <categoryProperties key="No action" value="No action"/>
+        <categoryProperties key="No errors can be observed at the SUT" value="No errors can be observed at the SUT"/>
+        <categoryProperties key="External circumstance prefix" value="External circumstance: "/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Upload Settings">
+        <categoryProperties key="Test case status" value="Design"/>
+        <categoryProperties key="Test plan target folder"/>
+        <categoryProperties key="Create test plan target folder"/>
+        <categoryProperties key="Use trash can folder for incompatible tests" value="false"/>
+        <categoryProperties key="Add tests to test lab" value="false"/>
+        <categoryProperties key="Test lab target folder"/>
+        <categoryProperties key="Create test lab target folder"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Advanced Settings">
+        <categoryProperties key="Always connect through the COM interface" value="false"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Test Case Selection">
+        <categoryProperties key="Report requirement coverage only from test case body" value="true"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Troubleshooting">
+        <categoryProperties key="Log file"/>
+        <categoryProperties key="Show debug messages on Progress Panel" value="false"/>
+        <categoryProperties key="Log scripter revision" value="true"/>
+        <categoryProperties key="Log entry pattern layout"/>
+        <categoryProperties key="Debug level" value="INFO"/>
+      </scripterPropertyCategories>
+    </scripterConfigurations>
+    <scripterConfigurations jarPath="Conformiq_Designer/SeleniumJavaScripter.jar" pluginName="SeleniumJavaScripter" sequenceNumber="3">
+      <scripterPropertyCategories name="Main">
+        <categoryProperties key="Output folder" value="Selenium Java"/>
+        <categoryProperties key="Root package" value="src"/>
+        <categoryProperties key="Test suite name" value="TestSuite"/>
+        <categoryProperties key="Browser Type" value="Mozilla"/>
+        <categoryProperties key="Append timestamp to the output folder" value="false"/>
+        <categoryProperties key="GUI action automation mapping" value="GUI action automation mapping.xls"/>
+        <categoryProperties key="Natural language automation mapping" value="Natural language automation mapping.xls"/>
+        <categoryProperties key="Disable export of widget status verification" value="true"/>
+        <categoryProperties key="Ignore verifications other than widget status" value="true"/>
+        <categoryProperties key="Disable export of don't care data widget and field verifications" value="true"/>
+        <categoryProperties key="Disable creating parameter for don't care input data" value="true"/>
+        <categoryProperties key="Add new custom actions as library action mapping" value="false"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Impact Analysis">
+        <categoryProperties key="Sprint" value="Sprint1"/>
+      </scripterPropertyCategories>
+    </scripterConfigurations>
+    <scripterConfigurations jarPath="Conformiq_Designer/SeleniumScripter.jar" pluginName="SeleniumScripter" enabled="true" sequenceNumber="4">
+      <scripterPropertyCategories name="Output">
+        <categoryProperties key="Path" value="Selenium XLS"/>
+        <categoryProperties key="Generate test harness files" value="true"/>
+        <categoryProperties key="Overwrite test harness files" value="false"/>
+        <categoryProperties key="create test harness backup" value="false"/>
+        <categoryProperties key="Generate test step logging" value="true"/>
+        <categoryProperties key="Generate requirements logging" value="true"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Template">
+        <categoryProperties key="Path" value="Selenium/template"/>
+      </scripterPropertyCategories>
+    </scripterConfigurations>
+    <coverageSettings key="ad-action-invoc._hsgJ8Nr5EeqTLMLMfXG6OQ._bym3INvlEeqVDpT66zQhJQ._NFwBINvlEeqVDpT66zQhJQ._QSOkMNvlEeqVDpT66zQhJQ" value="DONT_CARE"/>
+    <coverageSettings key="ad-action-invoc._hsgJ8Nr5EeqTLMLMfXG6OQ._cg_nINvlEeqVDpT66zQhJQ._NX6IINvlEeqVDpT66zQhJQ._QaRF4NvlEeqVDpT66zQhJQ" value="DONT_CARE"/>
+    <coverageSettings key="ad-control-flow._hsgJ8Nr5EeqTLMLMfXG6OQ._bym3INvlEeqVDpT66zQhJQ._PhRBUNvlEeqVDpT66zQhJQ" value="DONT_CARE"/>
+    <coverageSettings key="ad-control-flow._hsgJ8Nr5EeqTLMLMfXG6OQ._cg_nINvlEeqVDpT66zQhJQ._O88zUNvlEeqVDpT66zQhJQ" value="DONT_CARE"/>
+    <coverageSettings key="ad-node._hsgJ8Nr5EeqTLMLMfXG6OQ._bym3INvlEeqVDpT66zQhJQ._NFwBINvlEeqVDpT66zQhJQ" value="DONT_CARE"/>
+    <coverageSettings key="ad-node._hsgJ8Nr5EeqTLMLMfXG6OQ._cg_nINvlEeqVDpT66zQhJQ._NX6IINvlEeqVDpT66zQhJQ" value="BLOCK"/>
+    <coverageSettings key="decision.!decision.ad _hsgJ8Nr5EeqTLMLMfXG6OQ _bym3INvlEeqVDpT66zQhJQ _MiuzoNvlEeqVDpT66zQhJQ.decision else" value="DONT_CARE"/>
+    <coverageSettings key="decision.!decision.ad _hsgJ8Nr5EeqTLMLMfXG6OQ _cg_nINvlEeqVDpT66zQhJQ _MiuzoNvlEeqVDpT66zQhJQ.decision case _O88zUdvlEeqVDpT66zQhJQ" value="DONT_CARE"/>
+    <coverageSettings key="group.custom.com.conformiq.requirements.excel-C:/Users/lmcgeko/Desktop/requirement.xlsx-req-1"/>
+    <coverageSettings key="group.custom.com.conformiq.requirements.excel-C:/Users/lmcgeko/Desktop/requirement.xlsx-req-2"/>
+    <coverageSettings key="requirement.!requirement.ad _hsgJ8Nr5EeqTLMLMfXG6OQ _memkANsaEeqTLMLMfXG6OQ.invocation _EU9DQNvMEeqVDpT66zQhJQ.com.conformiq.requirements.excel-C:/Users/lmcgeko/Desktop/requirement.xlsx-req-2.1"/>
+  </designConfigurations>
+  <projectProperties key="CreatorDataDistribution" value="false"/>
+  <projectProperties key="IntelligentTestCaseNaming" value="true"/>
+  <projectProperties key="LookAheadDepth" value="0"/>
+  <projectProperties key="MainActivityDiagram" value="model/Activity Diagram.ad"/>
+  <projectProperties key="OnlyFinalizedRuns" value="true"/>
+  <projectProperties key="TestCaseIndexOffset" value="0"/>
+  <projectProperties key="TestCaseNamePrefix" value="Project X_Release Y_TC_00"/>
+  <projectProperties key="TestCaseOrdering" value="CHRONOLOGICAL_SHORTEST_TEST_FIRST"/>
+  <projectProperties key="TestGenTimeLimit" value="0"/>
+  <projectProperties key="TestGenerationStopCondition" value="REPEATABLE_TEST_SET"/>
+  <projectProperties key="TestSelection" value="FEWEST_TESTS"/>
+  <requirementProviders xmi:id="_nH2JgNvDEeqVDpT66zQhJQ" identifier="com.conformiq.requirements.excel" name="Excel Requirements (requirement.xlsx)">
+    <properties key="fileName" value="C:/Users/lmcgeko/Desktop/requirement.xlsx"/>
+  </requirementProviders>
+</com.conformiq:ConformiqProject>
