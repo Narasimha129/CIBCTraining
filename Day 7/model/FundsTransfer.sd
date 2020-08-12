@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.conformiq.creator.structure.dsl="http://www.conformiq.com/emf/15/StructureDiagram" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_gII7oNyjEeqVW-cIlunThA" type="Dsl" name="FundsTransfer.sd" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_gl7q4NyjEeqVW-cIlunThA" type="2003">
+    <children xmi:type="notation:DecorationNode" xmi:id="_gl8R8NyjEeqVW-cIlunThA" type="5037"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_gl8R8dyjEeqVW-cIlunThA" type="7003">
+      <children xmi:type="notation:Node" xmi:id="_iECAkNyjEeqVW-cIlunThA" type="3014">
+        <children xmi:type="notation:DecorationNode" xmi:id="_iECAldyjEeqVW-cIlunThA" type="5016"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_iECAkdyjEeqVW-cIlunThA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_iECAktyjEeqVW-cIlunThA" fontName="Segoe UI"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_iECAk9yjEeqVW-cIlunThA"/>
+        <element xmi:type="com.conformiq.creator.structure.dsl:Button" href="FundsTransfer.sl#qml64fdb70472814325984b58eac2b584ff"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iECAlNyjEeqVW-cIlunThA" x="71" y="31"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_gl7q4dyjEeqVW-cIlunThA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_gl7q4tyjEeqVW-cIlunThA" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_gl7q49yjEeqVW-cIlunThA"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_gl7q5NyjEeqVW-cIlunThA"/>
+    <element xmi:type="com.conformiq.creator.structure.dsl:Screen" href="FundsTransfer.sl#qml820d30a3c1234c1599a11c2a210ab205"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gl7q5dyjEeqVW-cIlunThA" x="147" y="68" width="190" height="137"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_gII7odyjEeqVW-cIlunThA"/>
+  <element xmi:type="com.conformiq.creator.structure.dsl:Model" href="FundsTransfer.sl#/"/>
+</notation:Diagram>

@@ -43,3 +43,8 @@ creator.gui.screen qml1f4a28b3797e4bda922ee5018c0146da "Order Details"
 			status = dontcare;
 	}
 }
+creator.gui.screen qml820d30a3c1234c1599a11c2a210ab205 "Funds Transfer"
+{
+	creator.gui.button qml64fdb70472814325984b58eac2b584ff "Transfer"
+		status = dontcare;
+}
