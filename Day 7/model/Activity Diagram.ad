@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ad="http://www.conformiq.com/emf/15/ActivityDiagram" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ad="http://www.conformiq.com/emf/15/ActivityDiagram" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
   <ad:ActivityDiagram xmi:id="_hsgJ8Nr5EeqTLMLMfXG6OQ" type="qml76e5b43c7a6947a89ab89906a760557c">
     <controlFlows xmi:type="ad:NormalControlFlow" xmi:id="_1HrwQNr5EeqTLMLMfXG6OQ" to="_0yY1sNr5EeqTLMLMfXG6OQ" from="_nQO4QNr5EeqTLMLMfXG6OQ"/>
     <controlFlows xmi:type="ad:NormalControlFlow" xmi:id="_8HO8UNr5EeqTLMLMfXG6OQ" to="_7Z0csNr5EeqTLMLMfXG6OQ" from="_0yY1sNr5EeqTLMLMfXG6OQ"/>
@@ -487,6 +487,18 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_chDRgdvlEeqVDpT66zQhJQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_chDRgtvlEeqVDpT66zQhJQ" fontName="Segoe UI"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_chDRg9vlEeqVDpT66zQhJQ" x="80" y="970"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_hBGaYNyXEeqVW-cIlunThA" type="Note" fontName="Segoe UI" description="Writing notes to test Git" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_hBmJoNyXEeqVW-cIlunThA" type="DiagramName">
+        <element xsi:nil="true"/>
+      </children>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_hBmJodyXEeqVW-cIlunThA" type="Description">
+        <element xsi:nil="true"/>
+      </children>
+      <styles xmi:type="notation:TextStyle" xmi:id="_hBGaYdyXEeqVW-cIlunThA"/>
+      <styles xmi:type="notation:LineTypeStyle" xmi:id="_hBGaYtyXEeqVW-cIlunThA"/>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hBGaY9yXEeqVW-cIlunThA" x="566" y="440"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_hsoFwdr5EeqTLMLMfXG6OQ"/>
     <edges xmi:type="notation:Edge" xmi:id="_1HsXUNr5EeqTLMLMfXG6OQ" type="4001" element="_1HrwQNr5EeqTLMLMfXG6OQ" source="_nQPfUNr5EeqTLMLMfXG6OQ" target="_0ycgENr5EeqTLMLMfXG6OQ">
